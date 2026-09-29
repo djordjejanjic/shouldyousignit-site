@@ -1,0 +1,26 @@
+Should You Sign It? - press facts
+
+Developer: Djordje Janjic, independent developer and editorial photographer, Serbia
+Released: 29 September 2026
+Platforms: iPhone and iPad, iOS and iPadOS 27 or later, Apple Intelligence required (iPhone 15 Pro or later; iPad with A17 Pro or M1 or later)
+Price: free download with two free analyses; Full Version one-time purchase, 9.99 USD (local prices vary); no subscription
+App languages: English, German, French, Spanish, Italian, Chinese (Simplified and Traditional)
+Reads documents in: the languages Apple Intelligence supports, including English, German, French, Spanish, Italian, Portuguese, Chinese and Japanese
+Category: Productivity
+Privacy: Data Not Collected. Documents are read and analyzed on the device; no account, no server, no analytics in the app
+Website: https://www.shouldyousignit.com
+App Store: https://apps.apple.com/app/id6814491870
+Contact: djordje.janjic@hotmail.com
+
+One line:
+Should You Sign It? explains a contract in plain language before you sign it, entirely on your iPhone.
+
+Short description:
+Scan a lease, job offer, gym membership or freelance contract and Should You Sign It? gives a plain-language summary, the clauses worth a second look (quoted word for word) and the questions to ask before signing. It runs on Apple's on-device Foundation Models, so documents never leave the phone.
+
+Long description:
+Should You Sign It? helps people understand what they are agreeing to. Pages are scanned with the camera or imported as a PDF or photos, read with Apple's Vision framework, and analyzed by Apple's on-device language model. The report shows a short summary, the key dates and amounts, the clauses to check (such as automatic renewal, cancellation fees, arbitration, non-compete or broad data sharing) and specific questions to ask the other party, with a clear caution level.
+
+Every quoted clause is checked against the scanned text, and quotes that can't be found are dropped. A keyword scan for known risky clause types backs up the model in eight languages. If the scan isn't something one would sign, such as a recipe or an article, the app says so instead of treating it as a contract.
+
+The app has no account, no server of its own, no ads and no tracking, and works in airplane mode. It is not legal advice: it never tells people whether to sign and recommends professional review for important decisions.
