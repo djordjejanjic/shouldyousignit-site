@@ -1,0 +1,7 @@
+# Should You Sign It?
+
+> An iPhone and iPad app that scans a contract, lease or terms and explains it in plain language: a summary, the key points, the clauses worth checking (quoted word for word) and the questions to ask before signing. Analysis runs on the device with Apple's on-device model; documents are never uploaded. Not legal advice.
+
+- [Home](https://www.shouldyousignit.com/): what the app does, pricing (2 free analyses, then a one-time $9.99 unlock), requirements
+- [Support](https://www.shouldyousignit.com/support): devices, languages, purchases, contact
+- [Privacy policy](https://www.shouldyousignit.com/privacy): the app collects no data
