@@ -1,3 +1,14 @@
+// Cloudflare Web Analytics site token (Cloudflare dashboard > Analytics & Logs > Web Analytics > your site).
+// Cookieless and without fingerprinting; empty means nothing is loaded.
+const CF_ANALYTICS_TOKEN = "";
+if (CF_ANALYTICS_TOKEN) {
+  var beacon = document.createElement("script");
+  beacon.defer = true;
+  beacon.src = "https://static.cloudflareinsights.com/beacon.min.js";
+  beacon.setAttribute("data-cf-beacon", JSON.stringify({ token: CF_ANALYTICS_TOKEN }));
+  document.head.appendChild(beacon);
+}
+
 // Set this to the App Store link once the app is live, e.g. "https://apps.apple.com/app/id1234567890".
 // Until then, every download button reads "Coming soon to the App Store".
 const APP_STORE_URL = "";
