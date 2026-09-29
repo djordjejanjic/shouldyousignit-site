@@ -7,7 +7,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 report = json.loads(pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else ROOT / "tools" / "sample_report.json").read_text())
 e = html.escape
 
-SEVERITY = {"seriousConcern": ("serious", "Serious concern"), "askAboutIt": ("ask", "Ask about it"), "worthNoting": ("note", "Worth noting")}
+SEVERITY = {"seriousConcern": ("serious", "Serious concern"), "askAboutIt": ("ask", "Ask about it"), "worthNoting": ("worth", "Worth noting")}
 CAUTION = {
     "high": ("serious", "Get advice first", "warn", "At least one clause could cost you real money or rights. Consider getting advice before signing."),
     "medium": ("ask", "Worth a question", "info", "Some clauses deserve a question before you sign. They're listed under Things to check."),
@@ -36,7 +36,8 @@ for i, c in enumerate(report["concerns"]):
     sc, sl = SEVERITY.get(c["severity"], SEVERITY["worthNoting"])
     kw = '<span class="ios-kw">keyword scan</span>' if c.get("source") == "keywordScan" else ""
     q = f'<div class="ios-askq">{ICON["q"]}<span>{e(c["questionToAsk"])}</span></div>' if c.get("questionToAsk") else ""
-    concerns.append(f'<details class="ios-concern"{" open" if i == 0 else ""}><summary><span class="ios-row"><span class="ios-pill {sc}">{sl}</span>{kw}<span class="ios-chev" aria-hidden="true"></span></span><span class="ios-quote">“{e(c["quote"])}”</span><span class="ios-why">{e(c["whyItMatters"])}</span></summary>{q}</details>')
+    is_open = i == 0
+    concerns.append(f'<div class="ios-concern{" open" if is_open else ""}"><button type="button" class="ios-toggle" aria-expanded="{"true" if is_open else "false"}"><span class="ios-row"><span class="ios-pill {sc}">{sl}</span>{kw}<span class="ios-chev" aria-hidden="true"></span></span><span class="ios-quote">“{e(c["quote"])}”</span><span class="ios-why">{e(c["whyItMatters"])}</span></button>{q}</div>')
 parts.append(f'<p class="ios-head">Things to check</p><div class="ios-card ios-list">{"".join(concerns)}</div><p class="ios-foot">Tap a clause to read it in full.</p>')
 if report.get("questionsToAsk"):
     rows = "".join(f'<li>{ICON["q"]}<span>{e(q)}</span></li>' for q in report["questionsToAsk"])

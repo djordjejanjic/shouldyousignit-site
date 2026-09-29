@@ -10,3 +10,12 @@ document.querySelectorAll("[data-store]").forEach(function (el) {
   if (label) label.textContent = "Coming soon to the App Store";
   else el.textContent = "Coming soon";
 });
+
+// Report inside the hero phone: tap a clause to expand or collapse it, like in the app.
+document.querySelectorAll(".ios-toggle").forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    var row = btn.closest(".ios-concern");
+    var open = row.classList.toggle("open");
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+});
