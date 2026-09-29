@@ -11,7 +11,7 @@ if (CF_ANALYTICS_TOKEN) {
 
 // Set this to the App Store link once the app is live, e.g. "https://apps.apple.com/app/id1234567890".
 // Until then, every download button reads "Coming soon to the App Store".
-const APP_STORE_URL = "";
+const APP_STORE_URL = "https://apps.apple.com/app/id6814491870";
 document.querySelectorAll("[data-store]").forEach(function (el) {
   if (APP_STORE_URL) { el.href = APP_STORE_URL; return; }
   el.classList.add("soon");
