@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shouldyousignit.onrender.com/sitemap.xml
