@@ -1,0 +1,351 @@
+{
+ "summary": "This is a freelance agreement for photography and image editing work. The Contractor must follow the project briefs and cover travel, equipment, and software costs. The Client can change the scope, pay within 60 days, withhold payment, and owns all work. Extra work over 20 hours costs more. All drafts and unused images become the Client’s property.",
+ "id": "0B448D44-DAA4-42C3-AFEE-E6E0D32ECE4B",
+ "questionsToAsk": [
+  "What happens if the Contractor completes work but the Client later claims it’s not included?",
+  "Can the Contractor be held liable if the Client withholds payment for rejected images?",
+  "What happens if the Client changes the project scope mid-process?",
+  "Is the 60-day payment window clearly defined in the invoice process?",
+  "Can the Contractor claim compensation for unused drafts or images?",
+  "What are the steps if the Client refuses to pay after a correct invoice?"
+ ],
+ "keyPoints": [
+  "The Contractor must do photography and image editing as per project briefs.",
+  "The Client can change project scope anytime; extra work over 20 hours is extra cost.",
+  "The Client must pay within 60 days of a correct invoice.",
+  "The Client can withhold payment for unsatisfactory work at its own choice.",
+  "The Contractor pays for travel, equipment, and software.",
+  "All work becomes the Client’s exclusive property, including drafts and unused images."
+ ],
+ "caution": "high",
+ "concerns": [
+  {
+   "source": "model",
+   "id": "2C89FF98-59E0-4F32-97BD-0B9E8B059E9C",
+   "questionToAsk": "What happens if the Contractor wants to use a draft or unused image later?",
+   "severity": "seriousConcern",
+   "location": {
+    "range": [
+     867,
+     1014
+    ],
+    "pageIndex": 0,
+    "boxes": [
+     [
+      [
+       0.08870967741935484,
+       0.4488084378563284
+      ],
+      [
+       0.7759190322580641,
+       0.01539338654503991
+      ]
+     ],
+     [
+      [
+       0.08870967741935484,
+       0.4670524515393387
+      ],
+      [
+       0.654815322580645,
+       0.01539338654503991
+      ]
+     ]
+    ]
+   },
+   "whyItMatters": "The Contractor loses all rights to their work, even drafts or unused images, which could limit future use or compensation.",
+   "quote": "4.1 All work created under this Agreement, including drafts, outtakes and unused images, becomes the exclusive property of the Client upon creation."
+  },
+  {
+   "quote": "4.2 The Contractor irrevocably waives all moral rights in the work and may not display it in a portfolio without the Client's prior written consent.",
+   "id": "D3D1E257-94AC-4AC0-9022-EBB61ED95E5D",
+   "questionToAsk": "Can the Contractor ever display the work without written permission, even if they want to?",
+   "severity": "seriousConcern",
+   "location": {
+    "boxes": [
+     [
+      [
+       0.08870967741935484,
+       0.4852964652223489
+      ],
+      [
+       0.7499620161290317,
+       0.01539338654503991
+      ]
+     ],
+     [
+      [
+       0.08870967741935484,
+       0.5035404789053592
+      ],
+      [
+       0.6056818548387095,
+       0.01539338654503991
+      ]
+     ]
+    ],
+    "pageIndex": 0,
+    "range": [
+     1017,
+     1164
+    ]
+   },
+   "whyItMatters": "The Contractor cannot show the work in a portfolio even if they want to, removing creative control.",
+   "source": "model"
+  },
+  {
+   "quote": "3.2 The Client may withhold payment for any deliverable it considers unsatisfactory, at its sole discretion.",
+   "id": "E0E3CE91-B4F1-443A-9575-551B93252B37",
+   "questionToAsk": "Will I be notified of changes, and can I exit without penalty if I disagree?",
+   "severity": "askAboutIt",
+   "location": {
+    "boxes": [
+     [
+      [
+       0.08870967741935484,
+       0.35758836944127714
+      ],
+      [
+       0.8028711290322577,
+       0.01539338654503991
+      ]
+     ],
+     [
+      [
+       0.08870967741935484,
+       0.37583238312428735
+      ],
+      [
+       0.1972741935483871,
+       0.01539338654503991
+      ]
+     ]
+    ],
+    "pageIndex": 0,
+    "range": [
+     650,
+     758
+    ]
+   },
+   "whyItMatters": "The other side can alter prices, scope or rules without your agreement.",
+   "source": "keywordScan"
+  },
+  {
+   "quote": "6.1 For twelve (12) months after this Agreement ends, the Contractor will not provide similar services to any customer of the Client.",
+   "id": "662F59AC-B43B-4DA4-BC50-4A01D3E22B38",
+   "questionToAsk": "What happens if the Contractor needs to work with a former customer within the 12-month period?",
+   "severity": "askAboutIt",
+   "location": {
+    "boxes": [
+     [
+      [
+       0.08870967741935484,
+       0.1569042189281642
+      ],
+      [
+       0.8133162096774189,
+       0.01539338654503991
+      ]
+     ],
+     [
+      [
+       0.08870967741935484,
+       0.17514823261117451
+      ],
+      [
+       0.4380706451612904,
+       0.01539338654503991
+      ]
+     ]
+    ],
+    "pageIndex": 1,
+    "range": [
+     220,
+     352
+    ]
+   },
+   "whyItMatters": "The Contractor is blocked from working with the Client’s customers for a full year, limiting job opportunities.",
+   "source": "model"
+  },
+  {
+   "quote": "7.1 The Contractor will indemnify the Client against all claims, losses and legal costs arising from the services.",
+   "id": "A60CC981-A0CE-4DB5-98CD-4CF7DC2CF5C0",
+   "questionToAsk": "What exactly am I indemnifying, and is there a cap on the amount?",
+   "severity": "askAboutIt",
+   "location": {
+    "boxes": [
+     [
+      [
+       0.08870967741935484,
+       0.24812428734321557
+      ],
+      [
+       0.8117136290322577,
+       0.01539338654503991
+      ]
+     ],
+     [
+      [
+       0.08870967741935484,
+       0.2663683010262258
+      ],
+      [
+       0.24202451612903222,
+       0.01539338654503991
+      ]
+     ]
+    ],
+    "pageIndex": 1,
+    "range": [
+     468,
+     582
+    ]
+   },
+   "whyItMatters": "You promise to cover the other side's losses or legal costs, sometimes for things you did not cause.",
+   "source": "keywordScan"
+  },
+  {
+   "quote": "8.2 The Client may terminate this Agreement at any time without notice. The Contractor must give ninety (90) days' written notice.",
+   "id": "AF66F14A-B156-47E1-A926-B3AA6035F638",
+   "questionToAsk": "Why must the Contractor wait 90 days to leave, while the Client can end it immediately?",
+   "severity": "askAboutIt",
+   "location": {
+    "boxes": [
+     [
+      [
+       0.08870967741935484,
+       0.37583238312428735
+      ],
+      [
+       0.7314713709677417,
+       0.01539338654503991
+      ]
+     ],
+     [
+      [
+       0.08870967741935484,
+       0.39407639680729767
+      ],
+      [
+       0.5064045967741935,
+       0.01539338654503991
+      ]
+     ]
+    ],
+    "pageIndex": 1,
+    "range": [
+     771,
+     900
+    ]
+   },
+   "whyItMatters": "The Client can end the contract instantly, while the Contractor must wait 90 days—unequal burden.",
+   "source": "model"
+  },
+  {
+   "quote": "8.3 On termination the Contractor is paid only for deliverables already approved.",
+   "id": "D87134D4-C0AE-4B6C-A89E-CE4C003478EB",
+   "questionToAsk": "What if the Contractor completes work after termination but it wasn’t approved?",
+   "severity": "askAboutIt",
+   "location": {
+    "boxes": [
+     [
+      [
+       0.08870967741935484,
+       0.4123204104903079
+      ],
+      [
+       0.7722304838709676,
+       0.01539338654503991
+      ]
+     ]
+    ],
+    "pageIndex": 1,
+    "range": [
+     903,
+     983
+    ]
+   },
+   "whyItMatters": "The Contractor may not get paid for work done later, even if it was completed.",
+   "source": "model"
+  },
+  {
+   "quote": "This Agreement is governed by the laws of England and Wales, and disputes will be settled by binding arbitration in London.",
+   "id": "C81FF3E4-1AD7-4852-A095-05B6B2145FB9",
+   "questionToAsk": "Can the arbitration clause be removed, and who pays the arbitration costs?",
+   "severity": "askAboutIt",
+   "location": {
+    "boxes": [
+     [
+      [
+       0.08870967741935484,
+       0.4670524515393387
+      ],
+      [
+       0.8065531451612903,
+       0.01539338654503991
+      ]
+     ],
+     [
+      [
+       0.08870967741935484,
+       0.4852964652223489
+      ],
+      [
+       0.38012516129032264,
+       0.01539338654503991
+      ]
+     ]
+    ],
+    "pageIndex": 1,
+    "range": [
+     1003,
+     1126
+    ]
+   },
+   "whyItMatters": "You may be giving up the right to go to court, to a jury, or to join a class action.",
+   "source": "keywordScan"
+  },
+  {
+   "quote": "The Contractor will keep all information about the Client, its customers and its projects confidential during this Agreement and for five (5) years after it ends.",
+   "id": "1E61368E-0927-488E-B7C2-BE3EE518B0C1",
+   "questionToAsk": "How long does confidentiality last, and does it cover my own work?",
+   "severity": "worthNoting",
+   "location": {
+    "boxes": [
+     [
+      [
+       0.08870967741935484,
+       0.08392816419612315
+      ],
+      [
+       0.7455222580645159,
+       0.01539338654503991
+      ]
+     ],
+     [
+      [
+       0.08870967741935484,
+       0.10217217787913346
+      ],
+      [
+       0.7419354032258064,
+       0.01539338654503991
+      ]
+     ]
+    ],
+    "pageIndex": 1,
+    "range": [
+     19,
+     181
+    ]
+   },
+   "whyItMatters": "Limits what you can say about the agreement or the other party, possibly for a long time.",
+   "source": "keywordScan"
+  }
+ ],
+ "documentType": "Freelance contract",
+ "pageCount": 2,
+ "languageCode": "en",
+ "notes": [],
+ "createdAt": 811935501.793602
+}
