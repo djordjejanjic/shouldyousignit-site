@@ -7,7 +7,7 @@ Price: free download with two free analyses; Full Version one-time purchase, 9.9
 App languages: English, German, French, Spanish, Italian, Chinese (Simplified and Traditional)
 Reads documents in: the languages Apple Intelligence supports, including English, German, French, Spanish, Italian, Portuguese, Chinese and Japanese
 Category: Productivity
-Privacy: Data Not Collected. Documents are read and analyzed on the device; no account, no server, no analytics in the app
+Privacy: Data Not Collected. Documents are read and analyzed on the device by default; since 1.1, Apple's Private Cloud Compute is an opt-in for long documents. No account, no server of our own, no analytics in the app
 Website: https://www.shouldyousignit.com
 App Store: https://apps.apple.com/app/id6814491870
 Contact: djordje.janjic@hotmail.com
