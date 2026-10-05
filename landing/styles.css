@@ -297,3 +297,6 @@ footer a:hover { text-decoration: underline; }
 .store-badge { display: inline-block; line-height: 0; border-radius: 10px; }
 .store-badge img { height: 50px; width: auto; }
 .store-badge:hover img { opacity: .9; }
+.ph-badge { display: inline-block; line-height: 0; border-radius: 10px; }
+.ph-badge img { height: 50px; width: auto; }
+.ph-badge:hover img { opacity: .9; }
